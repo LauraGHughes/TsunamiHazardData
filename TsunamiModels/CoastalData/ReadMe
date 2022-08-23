@@ -1,2 +1,7 @@
 This folder contains the information of the tsunami wave height at the coast.
 Each of the files are MATLAB objects that can be loaded and analysed.
+
+The csv file contains the information about the earthquakes that trigger the modelled tsunamis.
+The coastal points file contains, the x,y values of the coast in the original COMCOT grid, and the latitude and longitude equivalents of those points.
+coastal_maximum is a matrix that contains the latitude/longitude/wave height for the overall maximum wave height at the coast
+coastal_points is a matrix that contains the maximum wave height at each of the coastal points, with the first row being the name of the event that it corresponds to (this matches the information in the csv file).
