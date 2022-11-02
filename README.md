@@ -6,3 +6,5 @@ Included is:
 1. The earthquake deformation file for the largest event in the catalogue.
 2. The tsunami model files for the tsunami wave heights at the coast.
 
+Further information about the earthquake simulator and the earthquake catalog can be accessed through:
+https://drive.google.com/drive/folders/17J8-0vWRbPNIvCE6LqRH4IMgqoVMrrAo
