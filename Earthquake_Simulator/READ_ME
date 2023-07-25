@@ -34,4 +34,4 @@ The format is as follows:
     floating-point numbers
 
 RSQSim Input File (ASCII): multiparam.in
-Key-value pairs of RSQSim model parameters, used to originally run thesimulation.
+Key-value pairs of RSQSim model parameters, used to originally run the simulation.
