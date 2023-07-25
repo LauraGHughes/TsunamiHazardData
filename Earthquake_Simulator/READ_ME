@@ -20,21 +20,17 @@ ASCII file listing patch (triangular) geometry for the simulated faults in a UTM
 The first line in the file (excluding comment lines that start with '#') is the patch with ID=1, the second ID=2, etc. 
 Additional metadata columns may exist in each line beyond those listed and can be ignored.
 
-Catalog List Files (binary): catalog.eList, catalog.pList, catalog.tList, catalog.dList
+Catalog List Files (binary): .eList, .pList, .tList, .dList
 The raw output of RSQSim includes 4 binary "list" files that define the simulated event IDs, times, and total slip in each participating patch. 
 All 4 list files should be processed together, as the /N/-th item in onelist file corresponds to the /N/-th item in each other file.
 For each patch the ruptures during an event, a value is written to each of these files giving 1) the patch number, 2) the event number, 3) the
 distance slipped during the event, and 4) the time of first rupture for that patch during that event.
 The format is as follows:
-  * catalog.eList: list of event IDs (1-based), stored as little-endian
-    4-byte integers
-  * catalog.pList: list of patch IDs (1-based), stored as little-endian
-    4-byte integers
-  * catalog.tList: list of time of first slip on each patch in each
-    event (in seconds, relative to simulation origin time), stored as
+  * .eList: list of event IDs (1-based), stored as little-endian 4-byte integers
+  * .pList: list of patch IDs (1-based), stored as little-endian 4-byte integers
+  * .tList: list of time of first slip on each patch in each event (in seconds, relative to simulation origin time), stored as
     little-endian 8-byte double precision floating-point numbers
-  * catalog.dList: list of total slip on each patch in each event (in
-    meters), stored as little-endian 8-byte double precision
+  * .dList: list of total slip on each patch in each event (in meters), stored as little-endian 8-byte double precision
     floating-point numbers
 
 RSQSim Input File (ASCII): multiparam.in
