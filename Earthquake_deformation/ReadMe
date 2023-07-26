@@ -1,1 +1,5 @@
-This folder contains the earthquake deformation file for the largest event in the catalog.
+This folder contains the earthquake deformation file for all 2585 earthquakes used in the tsunami hazard analysis. 
+Additionally, csv files which contains information about the earthquakes used in this analysis, as well as the 
+wider earthquake catalogue are included.
+Figures that show the earthquake deformation and the resulting tsunamis for a sample of different magnitude 
+earthquakes is also included.
